@@ -1,0 +1,67 @@
+body{
+    background-color:lavender;
+}
+
+h2{
+    text-align: center;
+    margin-top: 30px;
+    color: black;
+    font-weight: 100;
+}
+
+input{
+    width: 30%;
+    margin: 10px;
+    border-color:black;
+}
+
+input[type=text]:focus{
+    background-color:lavender;
+}
+input[type=email]:focus{
+    background-color:lavender;
+    border-radius: 2px;
+    border-color:blue;
+
+}
+
+form{
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+    margin-top: 100px;
+    background-color: whitesmoke;
+}
+textarea{
+    width: 30%;
+    background-color:lavender;
+    margin: 10px;
+    box-sizing: border-box;
+    border: 2px solid black;
+    resize: none;
+}
+
+button{
+    margin: 10px;
+    color: black;
+}
+
+#submitButton{
+    color: black;
+    background-color: lavender;
+    font-weight: 100;
+   
+}
+
+div{
+    text-align: center;
+    margin-top: 20px;
+}
+#readButton{
+    width: 40%;
+    padding: 10px;
+    margin: 10px;
+    height: 120px;
+}
+#textToRead{
+    margin: 20px;
+}

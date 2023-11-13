@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>submit</title>
+    <link rel="stylesheet" href="../public/css/styles.css">
+</head>
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+    <h2>COMPOSE PAGE</h2>
+
+    <form method="post" action="compose" id="myForm">
+        <input type="email" name="email" id="receive" class="output" placeholder="To"> <br>
+        <input type="text" name="subject" placeholder="subject"  id="subject"> <br>
+        <textarea name="compose" placeholder="compose" id="create" cols="30" rows="10"></textarea> <br>
+        <button id="Login">quit</button>
+        <button id="inbox">inbox</button>
+        <button id="check"> check mail </button>
+        <button type="submit" id="submitButton">Submit</button>
+<!--     
+        <button type="submit">submit</button> -->
+    </form>
+    <script src="../public/frontend/index.js"> </script>
+    <!-- <script src="../public/frontend/index.js"></script> -->
+</body>
+</html>
